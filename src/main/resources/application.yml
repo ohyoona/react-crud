@@ -1,0 +1,11 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .html
+
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: system
+    password: system
+    driver-class-name: oracle.jdbc.OracleDriver
